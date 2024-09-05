@@ -1,0 +1,86 @@
+body {
+    background-image: url("Images/default-background.webp"); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    margin: 0; 
+}
+
+.navbar {
+    background-color: #f8f9fa !important; 
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+#portfolio {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.card {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+#contact {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#contactForm .form-control {
+    border-radius: 0;
+    box-shadow: none;
+    border-color: #ddd;
+}
+
+#contactForm .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+#contactForm button {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+#contactForm button:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+.modal-header {
+    border-bottom: 1px solid #e9ecef;
+}
+
+.modal-footer {
+    border-top: 1px solid #e9ecef;
+}
+
+body {
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    margin: 0; 
+}
+
+.container-fluid, .container {
+    position: relative;
+    z-index: 1;
+}
+
+
